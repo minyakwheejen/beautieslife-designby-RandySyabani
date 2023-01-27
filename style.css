@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+
+.fs-99{
+    font-size: 70px !important;
+}
+
+@media(max-width: 767.98px) {
+    .fs-99{
+        font-size: 56px !important;
+    }
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #f4f4f4;;
+}
+
+.btn-custom-1{
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    background: #EE9591;
+    color: white;
+    box-shadow: 10px 10px 30px rgba(234, 141, 136, 0.4);
+    border-radius: 6px
+}
+
+.btn-custom-1:hover{
+   color: #EE9591;
+   background:black;
+}
+
+#jumbotron{
+    min-height: 100vh;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 22px;
+    gap: 6px;
+
+    width: 412px;
+    height: 84px;
+
+    /* Brand Primary */
+
+    background: #EE9591;
+    box-shadow: 16px 16px 60px rgba(179, 94, 90, 0.4);
+    border-radius: 10px;
+}
+
+#persentase{
+    min-height: 80vh;
+}
+
+#quote{
+    min-height: 40vh;
+}
+
+.rectangle-2{
+    width: 100px;
+    height: 12px;
+    
+    /* Brand Primary */
+    
+    background: #EE9591;
+    border-radius: 100px;
+}
+
+#quote-second{
+    min-height: 100vh;
+}
+
+#fasilitas{
+    min-height: 100vh;
+}
+
+#mentor{
+    min-height: 100vh;
+}
+
+#testimonial{
+    min-height: 60vh;
+}
+
+#footer{
+    min-height: 80vh;
+}
